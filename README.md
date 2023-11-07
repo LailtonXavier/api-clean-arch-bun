@@ -40,6 +40,13 @@ To start the development server run:
       - the methods to use on the user
   - implement the full user method full
     - /shared/UseCase.ts
+  - let's implement the field adapters (controllers)
+  - create controller
+    - /adapters/RegisterUserController
+  - create user in memory
+    - /external/userRepositoryInMemory
+  - now, let's register our use cases through controls 
+    - index.ts import 
 
 ## clean architecture
   - Frameworks & drivers
